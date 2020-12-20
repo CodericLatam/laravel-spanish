@@ -20,6 +20,15 @@ Para habilitar el español config/app.php
 ```php
     'locale'          => 'es',
 ```
+
+No basta con incluír el paquete, aunque con ello mucho
+estará resuelto, pero es necesario también cargar
+los diccionarios de español, para ello ejecuta en cósnola la siguiente línea:
+
+```bash
+php artisan vendor:publish --provider="LaravelLatam\Spanish\SpanishServiceProvider" --tag="spanish"
+```
+
 ## Credits
 
 - [Neftalí Yagua](https://github.com/NeftaliYagua)
