@@ -1,0 +1,40 @@
+{
+    "name": "laravel-latam/spanish",
+    "description": "Spanish Package for Laravel",
+    "keywords": [
+        "laravel",
+        "latam",
+        "spanish"
+    ],
+    "homepage": "https://github.com/laravel-latam/spanish",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neftalí Yagua",
+            "email": "despacho@neftaliyagua.com",
+            "homepage": "https://neftaliyagua.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelLatam\\Spanish\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelLatam\\Spanish\\SpanishServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
