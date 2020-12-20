@@ -37,5 +37,16 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": [
+            "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
+        ],
+        "post-package-install": [
+            "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
+        ],
+        "post-install-cmd": [
+            "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
+        ]
+    }
 }
