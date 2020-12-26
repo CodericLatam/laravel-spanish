@@ -142,5 +142,12 @@
     "Use a recovery code": "Usa un código de recuperación",
     "Use an authentication code": "Usa un código de autenticación",
     "You may delete any of your existing tokens if they are no longer needed.": "Puede eliminar cualquiera de sus tokens existentes si ya no los necesita.",
-    "All rights reserved.":  "Todos los derechos reservados."
+    "All rights reserved.":  "Todos los derechos reservados.",
+    "Service Unavailable": "Servicio no disponible",
+    "Server Error": "Error en el servidor",
+    "Too Many Requests": "Demasiadas peticiones",
+    "Page Expired": "Página expirada",
+    "Forbidden": "Prohibido",
+    "Unauthorized": "Sin autorización",
+    "Not Found": "No encontrado",
 }
