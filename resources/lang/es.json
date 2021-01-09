@@ -150,4 +150,10 @@
     "Forbidden": "Prohibido",
     "Unauthorized": "Sin autorización",
     "Not Found": "No encontrado",
+    "Pagination Navigation": "Navegación de paginación",
+    "Showing": "Mostrando",
+    "to": "a",
+    "of": "de",
+    "results": "resultados",
+    "Go to page :page": "Ir a la página :page"
 }
