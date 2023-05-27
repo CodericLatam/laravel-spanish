@@ -4,8 +4,7 @@
 
 [![Total Downloads](https://img.shields.io/packagist/dt/laravel-latam/spanish.svg?style=flat-square)](https://packagist.org/packages/laravel-latam/spanish)
 
-
-Tan solo es un paquete de idioma para Laravel 8
+Tan solo es un paquete de idioma para Laravel 9 y 10
 
 ## Instalación
 
