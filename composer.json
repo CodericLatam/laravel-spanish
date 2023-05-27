@@ -1,52 +1,52 @@
 {
-    "name": "laravel-latam/spanish",
-    "description": "Spanish Package for Laravel",
-    "keywords": [
-        "laravel",
-        "latam",
-        "spanish"
-    ],
-    "homepage": "https://github.com/laravel-latam/spanish",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Neftalí Yagua",
-            "email": "despacho@neftaliyagua.com",
-            "homepage": "https://neftaliyagua.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^7.3|^8.0",
-        "laravel/framework": "^8.0",
-        "illuminate/contracts": "^8.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "LaravelLatam\\Spanish\\": "src"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "LaravelLatam\\Spanish\\SpanishServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "post-autoload-dump": [
-            "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
-        ],
-        "post-package-install": [
-            "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
-        ],
-        "post-install-cmd": [
-            "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
-        ]
+  "name": "laravel-latam/spanish",
+  "description": "Spanish Package for Laravel",
+  "keywords": [
+    "laravel",
+    "latam",
+    "spanish"
+  ],
+  "homepage": "https://github.com/laravel-latam/spanish",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Neftalí Yagua",
+      "email": "despacho@neftaliyagua.com",
+      "homepage": "https://neftaliyagua.com",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "laravel/framework": "^9.0|^10.0",
+    "illuminate/contracts": "^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelLatam\\Spanish\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelLatam\\Spanish\\SpanishServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "post-autoload-dump": [
+      "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
+    ],
+    "post-package-install": [
+      "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
+    ],
+    "post-install-cmd": [
+      "@php artisan vendor:publish --provider='LaravelLatam\\Spanish\\SpanishServiceProvider' --tag=spanish --force"
+    ]
+  }
 }
