@@ -2,7 +2,6 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-latam/spanish.svg?style=flat-square)](https://packagist.org/packages/laravel-latam/spanish)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/laravel-latam/spanish.svg?style=flat-square)](https://packagist.org/packages/laravel-latam/spanish)
-Paquete de idioma para Laravel 9 y 10
 
 ## Instalación
 Puedes instalar el paquete vía composer:
