@@ -11,8 +11,8 @@
   "authors": [
     {
       "name": "Neftalí Yagua",
-      "email": "despacho@neftaliyagua.com",
-      "homepage": "https://neftaliyagua.com",
+      "email": "neftaliyagua@fedoraproject.org",
+      "homepage": "https://neftaliyagua.fedorapeople.org",
       "role": "Developer"
     }
   ],
@@ -36,7 +36,7 @@
       ]
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "scripts": {
     "post-autoload-dump": [
