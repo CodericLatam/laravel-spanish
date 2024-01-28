@@ -10,7 +10,7 @@ class SpanishServiceProvider extends ServiceProvider
     {
         $this->loadJsonTranslationsFrom(__DIR__.'/../resources/lang');
         $this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang'),
+            __DIR__.'/../resources/lang' => app()->basePath('lang'),
         ], 'spanish');
     }
 
